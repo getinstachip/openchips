@@ -1,4 +1,4 @@
-module oh_7seg_decode ( input [3:0] bcd,  //0-9 
+module 7seg_decode ( input [3:0] bcd,  //0-9 
 			output a, //a segment (1=0ff)
 			output b, //b segment
 			output c, //c segment
