@@ -1,0 +1,3 @@
+[submodule "scr1"]
+	path = SCR1-RISC-V
+	url = https://github.com/syntacore/scr1.git
