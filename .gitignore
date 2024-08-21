@@ -19,3 +19,45 @@ Cargo.lock
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+common/docs/7seg_decode_tb.v
+common/docs/abs_tb.v
+common/docs/add_tb.v
+common/docs/arbiter_tb.v
+common/docs/bin2onehot_tb.v
+common/docs/bitreverse_tb.v
+common/docs/clockdiv_tb.v
+common/docs/clockgate_tb.v
+common/docs/counter_tb.v
+common/docs/crc_tb.v
+common/docs/csa62_tb.v
+common/docs/csa92_tb.v
+common/docs/debouncer_tb.v
+common/docs/edgedetect_tb.v
+common/docs/fifo_async_tb.v
+common/docs/fifo_cdc_tb.v
+common/docs/fifo_generic_tb.v
+common/docs/fifo_sync_tb.v
+common/docs/memory_dp_tb.v
+common/docs/memory_sp_tb.v
+common/docs/mux_tb.v
+common/docs/pulse2pulse_tb.v
+common/docs/standby_tb.v
+common/docs/test.py
+common/docs/8b101b_decode_tb.v
+common/docs/8b101b_encode_tb.v
+common/docs/buffer_tb.v
+common/docs/clockmux_tb.v
+common/docs/clockor_tb.v
+common/docs/crc32_8b_tb.v
+common/docs/crc32_64b_tb.v
+common/docs/delay_tb.v
+common/docs/memory_ram_tb.v
+common/docs/pwr_isohi_tb.v
+common/docs/pwr_isolo_tb.v
+common/docs/reg0_tb.v
+common/docs/reg1_tb.v
+common/docs/tristate_tb.v
+common/docs/fifo_generic_tb copy 2.v
+common/docs/fifo_generic_tb copy 3.v
+common/docs/fifo_generic_tb copy 4.v
+common/docs/fifo_generic_tb copy.v

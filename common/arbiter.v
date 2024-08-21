@@ -1,5 +1,4 @@
 module arbiter #( parameter N    = 1,
-		     parameter TYPE = "FIXED" // or ROUNDROBIN, FAIR
 		     ) 
    (
     input [N-1:0]  requests, //request vector
@@ -9,7 +8,6 @@ module arbiter #( parameter N    = 1,
    wire [N-1:0]   waitmask; 
    genvar 	  j;     
    generate       
-      if(TYPE=="FIXED")
 	begin : arbiter_fixed
 	   assign waitmask[0]   = 1'b0;      
 	   for (j=N-1; j>=1; j=j-1) 
